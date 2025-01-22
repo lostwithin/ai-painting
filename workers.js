@@ -7,7 +7,7 @@ const availableModels = {
 };
 const defaultModel = "stable-diffusion-xl"; // 默认模型
 
-const apiToken = "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"; // 替换为你的 Hugging Face API 密钥
+const apiToken = "hf"; // 替换为你的 Hugging Face API 密钥
 
 async function handleRequest(request) {
   const url = new URL(request.url);
